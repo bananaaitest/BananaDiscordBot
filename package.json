@@ -1,0 +1,54 @@
+{
+  "name": "phobos",
+  "version": "1.0.0",
+  "description": "Stupid discord.js bot by MarsRon with even worse code.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon"
+  },
+  "author": "MarsRon <marsron204@gmail.com> (https://marsron.name.my)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarsRon/phobos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarsRon/phobos/issues"
+  },
+  "homepage": "https://phobos.marsron.name.my",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "@distube/direct-link": "^1.0.1",
+    "@distube/youtube": "^1.0.4",
+    "@distube/yt-dlp": "^2.0.1",
+    "@distube/ytdl-core": "^4.16.12",
+    "axios": "^1.7.7",
+    "discord-image-generation": "^1.4.25",
+    "discord.js": "^14.17.3",
+    "distube": "^5.0.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "is-online": "^10.0.0",
+    "mathjs": "^11.12.0",
+    "mongoose": "^7.8.4",
+    "opusscript": "^0.0.8",
+    "pet-pet-gif": "^1.0.9",
+    "sodium-native": "^4.3.1",
+    "uwuifier": "^4.2.2",
+    "winston": "^3.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "erlpack": "github:discord/erlpack",
+    "utf-8-validate": "^6.0.4",
+    "zlib-sync": "^0.1.9"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}
